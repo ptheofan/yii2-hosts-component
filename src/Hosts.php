@@ -1,20 +1,13 @@
 <?php
-namespace common\components;
+namespace ptheofan\components;
 
-use common\components\hosts\Host;
 use yii\base\Component;
 
-
-
 /**
- * @property Host $portal
- * @property Host $admin
- * @property Host $ice The domain used by icecast to authenticate a user
- * @property Host $zen The domain where BARIX submits the heartbeats
- * @property Host $api The Platform API
- * @property Host $device The device where BARIX gets the configuration, playlists and mp3 from
- * @property Host $storage This is the public accessible storage
- * @property Host $internalStorageProxy This is where DJ will get the audio files from
+ * For autocomplete you should add here the hosts configured in your app configuration
+ * @example
+ *  @ property Host $storage
+ *  (without the space between @ and property)
  */
 class Hosts extends Component
 {

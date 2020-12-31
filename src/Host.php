@@ -1,5 +1,5 @@
 <?php
-namespace common\components\hosts;
+namespace ptheofan\components;
 
 use yii\base\BaseObject;
 
