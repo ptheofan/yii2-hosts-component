@@ -1,0 +1,25 @@
+{
+    "name": "ptheofan/yii2-hosts-component",
+    "description": "A Yii2 component to help you manage domains and hosts throughout your app accross multiple environments.",
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "^2.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "p.t.",
+            "email": "ptheofan@gmail.com"
+        }
+    ],
+    "suggest": {
+        "ptheofan/yii2-file-upload-behavior": "A highly customisable system to make file-uploads management as trivial as it should be.",
+        "bazilio/yii2-stubs-generator": "Universal IDE Autocomplete by generating stubs based on your configs"
+    },
+    "autoload": {
+        "psr-4": {
+            "ptheofan\\components\\": "src"
+        }
+    }
+}
